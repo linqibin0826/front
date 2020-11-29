@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c82c4f5e-5796-4b4a-a8c9-85b9b8070146" name="Default Changelist" comment="" />
+    <list default="true" id="c82c4f5e-5796-4b4a-a8c9-85b9b8070146" name="Default Changelist" comment="front first commit!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +17,9 @@
         <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pages/teacher/index.vue" root0="FORCE_HIGHLIGHTING" />
@@ -34,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/plugins/nuxt-swiper-plugin.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1jQ7bmQSKFe5Oagrc1vl6i27AP3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-admin-template-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -108,12 +112,24 @@
       <workItem from="1605528593897" duration="5263000" />
       <workItem from="1606306427429" duration="5662000" />
       <workItem from="1606618588149" duration="2076000" />
-      <workItem from="1606657199805" duration="6149000" />
+      <workItem from="1606657199805" duration="6464000" />
     </task>
+    <task id="LOCAL-00001" summary="front first commit!">
+      <created>1606668974987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606668974987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="front first commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="front first commit!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1406" y="186" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604660336906">
@@ -128,10 +144,14 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="629" y="299" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1605236382485" />
-    <state x="800" y="262" key="FileChooserDialogImpl" timestamp="1606660070356">
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1606668990633">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="800" y="262" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1606660070356" />
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1606668990633" />
+    <state x="800" y="262" key="FileChooserDialogImpl" timestamp="1606668756336">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="800" y="262" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1606668756336" />
     <state x="1938" y="279" key="FileChooserDialogImpl/0.0.2560.1050@0.0.2560.1050" timestamp="1606619967046" />
     <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1606668388432">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -205,10 +225,18 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.2560.1050@0.0.2560.1050" timestamp="1605237175020" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606668995937">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1606668995937" />
     <state x="611" y="60" width="610" height="939" key="find.popup" timestamp="1605532379805">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="611" y="60" width="610" height="939" key="find.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1605532379805" />
+    <state x="761" y="425" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606668850382">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="761" y="425" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1606668850382" />
     <state x="708" y="387" key="scopes" timestamp="1605532329531">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
