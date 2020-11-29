@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c82c4f5e-5796-4b4a-a8c9-85b9b8070146" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pages/teacher/index.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/css/global.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pages/course/_id.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/utils/request.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pages/course/index.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pages/order/_orderNo.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/api/teacher.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/api/register.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pages/register.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/layouts/default.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pages/course/video/_vid.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pages/index.vue" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/plugins/nuxt-swiper-plugin.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1jQ7bmQSKFe5Oagrc1vl6i27AP3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-admin-template-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\mooc\Vue_front\assets\img" />
+      <recent name="C:\Users\Administrator\Desktop\项目源码\day11\系统前台页面（下载好依赖）\vue-front-1010\vue-front-1010\assets\img" />
+      <recent name="C:\Users\Administrator\Desktop\项目源码\day11\系统前台页面（下载好依赖）\vue-front-1010\vue-front-1010\assets" />
+      <recent name="C:\Users\Administrator\Desktop\项目源码\day11\系统前台页面（下载好依赖）\vue-front-1010\vue-front-1010\api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\mooc\Vue_front\assets\img" />
+      <recent name="C:\Users\Administrator\Desktop\项目源码\day11\系统前台页面（下载好依赖）\vue-front-1010\vue-front-1010\assets\img" />
+      <recent name="C:\Users\Administrator\Desktop\项目源码\day11\系统前台页面（下载好依赖）\vue-front-1010\vue-front-1010\assets" />
+      <recent name="C:\Users\Administrator\Desktop\项目源码\day11\系统前台页面（下载好依赖）\vue-front-1010\vue-front-1010\pages\course\video" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LYEducation" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c82c4f5e-5796-4b4a-a8c9-85b9b8070146" name="Default Changelist" comment="" />
+      <created>1603724535770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603724535770</updated>
+      <workItem from="1603724536784" duration="1201000" />
+      <workItem from="1603725825359" duration="2220000" />
+      <workItem from="1603769455236" duration="111000" />
+      <workItem from="1603777115025" duration="8222000" />
+      <workItem from="1603889854988" duration="6036000" />
+      <workItem from="1603948557174" duration="2142000" />
+      <workItem from="1604107946667" duration="7706000" />
+      <workItem from="1604216151517" duration="6763000" />
+      <workItem from="1604655731691" duration="7539000" />
+      <workItem from="1604824341951" duration="5459000" />
+      <workItem from="1604885928857" duration="8771000" />
+      <workItem from="1604921782885" duration="6595000" />
+      <workItem from="1604987033869" duration="10832000" />
+      <workItem from="1605058216839" duration="3248000" />
+      <workItem from="1605097222435" duration="1044000" />
+      <workItem from="1605177762186" duration="30000" />
+      <workItem from="1605229575120" duration="12702000" />
+      <workItem from="1605332396750" duration="9077000" />
+      <workItem from="1605444795292" duration="3920000" />
+      <workItem from="1605487809966" duration="1317000" />
+      <workItem from="1605528593897" duration="5263000" />
+      <workItem from="1606306427429" duration="5662000" />
+      <workItem from="1606618588149" duration="2076000" />
+      <workItem from="1606657199805" duration="6149000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1406" y="186" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604660336906">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1406" y="186" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1604660336906" />
+    <state x="1649" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604933816025">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1649" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1604933816025" />
+    <state x="629" y="299" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605236382485">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="629" y="299" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1605236382485" />
+    <state x="800" y="262" key="FileChooserDialogImpl" timestamp="1606660070356">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="800" y="262" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1606660070356" />
+    <state x="1938" y="279" key="FileChooserDialogImpl/0.0.2560.1050@0.0.2560.1050" timestamp="1606619967046" />
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom" timestamp="1606668388432">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1606668388432" />
+    <state width="2517" height="234" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1606623796457" />
+    <state width="1877" height="234" key="GridCell.Tab.0.center" timestamp="1606668388432">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1606668388432" />
+    <state width="2517" height="234" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1606623796457" />
+    <state width="1877" height="234" key="GridCell.Tab.0.left" timestamp="1606668388431">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1606668388431" />
+    <state width="2517" height="234" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1606623796456" />
+    <state width="1877" height="234" key="GridCell.Tab.0.right" timestamp="1606668388432">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="234" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.2560.1050@0.0.1920.1050" timestamp="1606668388432" />
+    <state width="2517" height="234" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1606623796457" />
+    <state width="1256" height="351" key="GridCell.Tab.1.bottom" timestamp="1605022285029">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.1.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285029" />
+    <state width="1256" height="351" key="GridCell.Tab.1.center" timestamp="1605022285027">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.1.center/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285027" />
+    <state width="1256" height="351" key="GridCell.Tab.1.left" timestamp="1605022285027">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.1.left/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285027" />
+    <state width="1256" height="351" key="GridCell.Tab.1.right" timestamp="1605022285028">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.1.right/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285028" />
+    <state width="1256" height="351" key="GridCell.Tab.2.bottom" timestamp="1605022285031">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.2.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285031" />
+    <state width="1256" height="351" key="GridCell.Tab.2.center" timestamp="1605022285030">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.2.center/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285030" />
+    <state width="1256" height="351" key="GridCell.Tab.2.left" timestamp="1605022285030">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.2.left/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285030" />
+    <state width="1256" height="351" key="GridCell.Tab.2.right" timestamp="1605022285030">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.2.right/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285030" />
+    <state width="1256" height="351" key="GridCell.Tab.3.bottom" timestamp="1605022285036">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.3.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285036" />
+    <state width="1256" height="351" key="GridCell.Tab.3.center" timestamp="1605022285033">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.3.center/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285033" />
+    <state width="1256" height="351" key="GridCell.Tab.3.left" timestamp="1605022285033">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.3.left/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285033" />
+    <state width="1256" height="351" key="GridCell.Tab.3.right" timestamp="1605022285034">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1256" height="351" key="GridCell.Tab.3.right/0.0.2560.1050@0.0.2560.1050" timestamp="1605022285034" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1605237175020">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.2560.1050@0.0.2560.1050" timestamp="1605237175020" />
+    <state x="611" y="60" width="610" height="939" key="find.popup" timestamp="1605532379805">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="611" y="60" width="610" height="939" key="find.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1605532379805" />
+    <state x="708" y="387" key="scopes" timestamp="1605532329531">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="708" y="387" key="scopes/0.0.2560.1050@0.0.2560.1050" timestamp="1605532329531" />
+    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1605487965309">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1605487965309" />
+  </component>
+</project>
