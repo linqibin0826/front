@@ -4,7 +4,7 @@
     <section class="container">
       <header class="comm-title">
         <h2 class="fl tac">
-          <span class="c-333">讲师介绍</span>
+          <span class="c-333">教师介绍</span>
         </h2>
       </header>
       <div class="t-infor-wrap">
@@ -42,7 +42,6 @@
             </section>
           </header>
 
-
           <!-- /无数据提示 开始-->
           <section class="no-data-wrap" v-if="courseList.length == 0">
             <em class="icon30 no-data-ico">&nbsp;</em>
@@ -58,11 +57,11 @@
                   <section class="course-img">
                     <img :src="course.cover" class="img-responsive" >
                     <div class="cc-mask">
-                      <a href="#" title="开始学习" target="_blank" class="comm-btn c-btn-1">开始学习</a>
+                      <a :href="/course/+course.id" title="开始学习" class="comm-btn c-btn-1">开始学习</a>
                     </div>
                   </section>
                   <h3 class="hLh30 txtOf mt10">
-                    <a href="#" :title="course.title" target="_blank" class="course-title fsize18 c-333">{{ course.title }}</a>
+                    <a :href="/course/+course.id" :title="course.title" class="course-title fsize18 c-333">{{ course.title }}</a>
                   </h3>
                 </div>
               </li>

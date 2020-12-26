@@ -13,5 +13,12 @@ export default {
       url: `/user/getLoginInfo`,
       method: 'get'
     })
+  },
+  updateUserInfo(data) {
+    return request({
+      url: `/user/updateUser`,
+      method: 'post',
+      data
+    })
   }
 }

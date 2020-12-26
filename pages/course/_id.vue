@@ -134,18 +134,18 @@
           <div class="i-box">
             <div>
               <section class="c-infor-tabTitle c-tab-title">
-                <a title href="javascript:void(0)">主讲讲师</a>
+                <a title href="javascript:void(0)">主要教师</a>
               </section>
               <section class="stud-act-list">
                 <ul style="height: auto;">
                   <li>
                     <div class="u-face">
-                      <a href="#">
+                      <a :href="/teacher/ + courseInfo.teacherId">
                         <img :src="courseInfo.avatar" width="50" height="50" alt>
                       </a>
                     </div>
                     <section class="hLh30 txtOf">
-                      <a class="c-333 fsize16 fl" href="#">{{ courseInfo.teacherName }}</a>
+                      <a class="c-333 fsize16 fl" :href="/teacher/ + courseInfo.teacherId">{{ courseInfo.teacherName }}</a>
                     </section>
                     <section class="hLh20 txtOf">
                       <span class="c-999">{{ courseInfo.intro }}</span>

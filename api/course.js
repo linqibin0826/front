@@ -25,5 +25,11 @@ export default {
       url: `/eduservice/course/getFrontCourseInfoById/${id}`,
       method: 'get'
     })
+  },
+  getList(subjectName) {
+    return request({
+      url: `/eduservice/course/getComputerList/${subjectName}`,
+      method: 'get'
+    })
   }
 }

@@ -1,10 +1,10 @@
 <template>
-  <div id="aCoursesList" class="bg-fa of">
+  <div id="articleList" class="bg-fa of">
     <!-- /课程列表 开始 -->
     <section class="container">
       <header class="comm-title">
         <h2 class="fl tac">
-          <span class="c-333">全部课程</span>
+          <span class="c-333">全部考试</span>
         </h2>
       </header>
       <section class="c-sort-box">
@@ -21,6 +21,7 @@
                 <li v-for="subject in subjectParent" :key="subject.id" :class="{active:condition.subjectParentId == subject.id}">
                   <a :title="subject.title" href="#" @click="addCondition(subject.id)">{{ subject.title }}</a>
                 </li>
+
               </ul>
             </dd>
           </dl>
@@ -34,46 +35,9 @@
           </section>
           <!-- /无数据提示 结束-->
           <article class="comm-course-list">
-            <ul class="of" id="bna">
-              <li v-for="item in courseInfo" :key="item.id">
-                <div class="cc-l-wrap">
-                  <section class="course-img">
-                    <img :src="item.cover" class="img-responsive" :alt="item.title">
-                    <div class="cc-mask">
-                      <a :href="/course/ + item.id" title="开始学习" class="comm-btn c-btn-1">开始学习</a>
-                    </div>
-                  </section>
-                  <h3 class="hLh30 txtOf mt10">
-                    <a :href="/course/ + item.id" :title="item.title" class="course-title fsize18 c-333">{{ item.title }}</a>
-                  </h3>
-                  <section class="mt10 hLh20 of">
-                    <span class="fr jgTag bg-green" v-if="Number(item.price) === 0">
-                      <i class="c-fff fsize12 f-fA" >免费</i>
-                    </span>
-                    <span class="fl jgAttr c-ccc f-fA">
-                      <i class="c-999 f-fA">9634人学习</i>
-                      |
-                      <i class="c-999 f-fA">9634评论</i>
-                    </span>
-                  </section>
-                </div>
-              </li>
-            </ul>
             <div class="clear"></div>
           </article>
         </div>
-
-
-
-        <!-- 分页 -->
-        <el-pagination
-          :current-page="page"
-          :page-size="limit"
-          :total="total"
-          style="padding: 30px 0; text-align: center"
-          layout="total, prev, pager, next, jumper"
-          @current-change="getCourseInfo"
-        />
       </section>
     </section>
     <!-- /课程列表 结束 -->
@@ -97,19 +61,11 @@ export default {
   },
   created() {
     this.getAllSubject()
-    this.getCourseInfo()
   },
   methods: {
     getAllSubject() {
       course.getSubjectParent().then(response => {
         this.subjectParent = response.data.data.allSubject
-      })
-    },
-    getCourseInfo(page=1) {
-      this.page =  page,
-      course.getCourseInfo(this.page, this.limit, this.condition).then(response => {
-        this.courseInfo = response.data.data.data.items
-        this.total = response.data.data.data.total
       })
     },
     addCondition(id) {

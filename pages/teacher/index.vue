@@ -1,17 +1,13 @@
-
 <template>
-  <div id="aCoursesList" class="bg-fa of">
+  <div id="aTeacherList" class="bg-fa of">
     <!-- 讲师列表 开始 -->
     <section class="container">
-      <header class="comm-title all-teacher-title">
+      <header class="comm-title">
         <h2 class="fl tac">
-          <span class="c-333">全部讲师</span>
+          <span class="c-333">全部教师</span>
         </h2>
-        <section class="c-tab-title">
-          <a id="subjectAll" title="全部" href="#">全部</a>
-        </section>
       </header>
-      <section class="c-sort-box unBr">
+      <section class="c-sort-box">
         <div>
 
           <!-- /无数据提示 开始-->
@@ -27,12 +23,12 @@
               <li v-for="teacher in teacherList" :key="teacher.id" >
                 <section class="i-teach-wrap">
                   <div class="i-teach-pic">
-                    <a :href="/teacher/ + teacher.id" :title=teacher.name target="_blank">
+                    <a :href="/teacher/ + teacher.id" :title=teacher.name>
                       <img :src="teacher.avatar" :alt="teacher.name">
                     </a>
                   </div>
                   <div class="mt10 hLh30 txtOf tac">
-                    <a :href="/teacher/ + teacher.id" :title="teacher.name" target="_blank" class="fsize18 c-666">{{ teacher.name }}</a>
+                    <a :href="/teacher/ + teacher.id" :title="teacher.name" class="fsize18 c-666">{{ teacher.name }}</a>
                   </div>
                   <div class="hLh30 txtOf tac">
                     <span class="fsize14 c-999">{{ teacher.career }}</span>

@@ -19,7 +19,7 @@
           <td colspan="3" class="Title red f18 fb"><p>限时折扣</p></td>
         </tr> -->
         <tr>
-          <td colspan="3" class="teacher">讲师：{{order.teacherName}}</td>
+          <td colspan="3" class="teacher">教师：{{order.teacherName}}</td>
         </tr>
         <tr class="good">
           <td class="name First">

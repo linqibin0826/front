@@ -30,10 +30,9 @@ a{
 
 .sign {
     height: 100%;
-    min-height: 750px;
     text-align: center;
     font-size: 14px;
-    background-color: #f1f1f1;
+    background-color: white;
 }
 
 /*表单样式*/
@@ -41,7 +40,7 @@ a{
     background-color: #FFFFFF;
     width: 400px;
     padding: 50px;
-    margin: 60px auto 0 auto;
+    margin: auto;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
     border-radius: 5px;
 }
@@ -138,6 +137,18 @@ a{
     background-color: #3db922;
 }
 
+.sign .forget-password-button{
+  margin-top: 20px;
+  width: 100%;
+  padding: 9px 18px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  color: #FFFFFF;
+  background-color: grey;
+  cursor: pointer;
+}
+
 .sign .sign-in-button{
     margin-top: 20px;
     width: 100%;
@@ -151,6 +162,18 @@ a{
 }
 .sign .sign-in-button:hover{
     background-color: #187cb7;
+}
+
+.sign .sign-forget-button{
+  margin-top: 20px;
+  width: 100%;
+  padding: 9px 18px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  cursor: pointer;
 }
 
 .sign .more-sign {

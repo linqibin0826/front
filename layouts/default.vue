@@ -15,13 +15,16 @@
               <a>课程</a>
             </router-link>
             <router-link to="/teacher" tag="li" active-class="current">
-              <a>名师</a>
+              <a>教师</a>
             </router-link>
-            <router-link to="/article" tag="li" active-class="current">
-              <a>文章</a>
+            <router-link to="/exam" tag="li" active-class="current">
+              <a>考试</a>
             </router-link>
-            <router-link to="/qa" tag="li" active-class="current">
-              <a>问答</a>
+            <router-link to="/community" tag="li" active-class="current">
+              <a>社区</a>
+            </router-link>
+            <router-link to="/download" tag="li" active-class="current">
+              <a>资源</a>
             </router-link>
           </ul>
           <!-- / nav -->
@@ -35,16 +38,12 @@
                 <span class="vam ml5">注册</span>
               </a>
             </li>
-
-
             <li v-if="userInfo.id" id="is-login-one" class="mr10">
               <a id="headerMsgCountId" href="#" title="消息">
                 <em class="icon18 news-icon">&nbsp;</em>
               </a>
               <q class="red-point" style="display: none">&nbsp;</q>
             </li>
-
-
             <li v-if="userInfo.id" id="is-login-two" class="h-r-user">
               <a href="/ucenter" title>
                 <img
@@ -63,7 +62,7 @@
           <aside class="h-r-search">
             <form action="#" method="post">
               <label class="h-r-s-box">
-                <input type="text" placeholder="输入你想学的课程" name="queryCourse.courseName" value>
+                <input type="text" placeholder="搜索课程" name="queryCourse.courseName">
                 <button type="submit" class="s-btn">
                   <em class="icon18">&nbsp;</em>
                 </button>
@@ -89,6 +88,7 @@
           </h4>
           <ul class="of flink-list">
             <li>
+              <a href="https://www.ptu.edu.cn/" title="莆田学院" target="_blank">莆田学院</a>
             </li>
           </ul>
           <div class="clear"></div>
@@ -97,15 +97,15 @@
           <section class="fl col-7">
             <section class="mr20">
               <section class="b-f-link">
-                <a href="#" title="关于我们" target="_blank">关于我们</a>|
+                <a href="https://github.com/linqibin0826" title="关于我们" target="_blank">关于我们</a>|
                 <a href="#" title="联系我们" target="_blank">联系我们</a>|
                 <a href="#" title="帮助中心" target="_blank">帮助中心</a>|
                 <a href="#" title="资源下载" target="_blank">资源下载</a>|
-                <span>服务热线：010-56253825(北京) 0755-85293825(深圳)</span>
+                <span>服务热线：18039086707(福建)</span>
                 <span>Email：linqibin0826@gmail.com</span>
               </section>
               <section class="b-f-link mt10">
-                <span>©版权归 京ICP备17055252号</span>
+                <span>©版权归LY所有 京ICP备123456号</span>
               </section>
             </section>
           </section>
@@ -143,6 +143,7 @@ import '~/assets/css/swiper-3.3.1.min.css'
 import "~/assets/css/pages-weixinpay.css"
 
 import cookie from 'js-cookie'
+import loginApi from "@/api/login";
 
 export default {
   data() {
@@ -161,9 +162,26 @@ export default {
     }
   },
   created() {
-    this.showInfo()
+    this.token = this.$route.query.token
+    if (this.token) { //判断是否为Oauth2重定向回来的连接
+      this.githubLogin()
+    }
+    this.showInfo();
   },
   methods: {
+    /**
+     * github 登录后获取用户信息
+     */
+    githubLogin() {
+      cookie.set("token", this.token, {damain: 'localhost'})
+      cookie.set("user", '', {domain: 'localhost'})
+      //获取用户信息,跳转界面
+      loginApi.getUserInfo().then(response => {
+        this.userInfo = response.data.data.item
+        cookie.set("user", this.userInfo, {domain: 'localhost'})
+        window.location.href = "/"
+      })
+    },
     showInfo() {
       var user = cookie.get('user')
       //讲json字符串转化为Json对象
@@ -172,7 +190,9 @@ export default {
       }
     },
     logout() {
-
+      cookie.set('token', '', {domain: 'localhost'})
+      cookie.set('user', '', {domain: 'localhost'})
+      window.location.href = "/login"
     }
   }
 
